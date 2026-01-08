@@ -29,7 +29,8 @@ body {
   border-radius: 1em;
   margin-bottom: 1em;
   display: grid;
-  gap: 1em
+  gap: 2em;
+  display: none;
 }
 
 h1 {
@@ -64,4 +65,3 @@ h1 {
 #btn:hover {
   background: rgb(248, 55, 152)
 }
-

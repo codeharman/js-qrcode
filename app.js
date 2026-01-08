@@ -11,5 +11,7 @@ btn.addEventListener('click', (e) => {
     text: `${value}`,
     correctLevel : QRCode.CorrectLevel.H,
   })
+
+  qr.style.display = 'grid'
 })
 
