@@ -9,6 +9,7 @@ btn.addEventListener('click', (e) => {
   
   new QRCode(qr, {
     text: `${value}`,
+    correctLevel : QRCode.CorrectLevel.H,
   })
 })
 
